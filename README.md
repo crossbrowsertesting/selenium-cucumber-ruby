@@ -49,7 +49,6 @@ end </code></pre>
 username = 'YOUR_USERNAME'
 authkey = 'YOUR_AUTHKEY'
 
-# Defining capabilities of the test session, such as browser, OS, and resolution
 caps = Selenium::WebDriver::Remote::Capabilities.new 
 caps["name"] = "Cucumber Ruby" # A name for your test
 caps["build"] = "1.0"  #Versioning data for your site or application as you test
